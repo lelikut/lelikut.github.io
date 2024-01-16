@@ -1,0 +1,113 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#wrapper {
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 40px 10px 10px;
+}
+
+.parse-btn {
+    width: 86px; 
+    float: right;
+    margin-left: 6px;
+}
+
+.field {
+    overflow: hidden; 
+}
+
+.field:after {
+    content: ''; 
+    display: block;
+    clear: both;
+} 
+
+.field input {
+    width: 100%;
+    font-size: 1rem;
+    padding: 6px 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    height: 36px;
+}
+
+button {
+    padding: 7px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    color: #000;
+    border: 2px solid #e7e7e7;
+    border-radius: 3px;
+}
+
+.settings {
+    margin: 12px 0;
+}
+
+.settings [type="checkbox"] {
+    margin-left: 0;
+    margin-right: 6px;
+}
+
+.output p {
+    padding: 9px 10px 9px 0;
+    margin: 0;
+}
+
+.result-hint {
+    float: left;
+}
+
+.result {
+    overflow: hidden; 
+    font-size: 1rem;
+    padding: 6px 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    min-height: 36px;
+}
+
+.result:after {
+    content: ' '; 
+    display: block;
+}
+
+.variables-set {
+    margin-top: 8px;
+}
+
+#result {
+    padding: 2px 0 2px 0;
+    margin: 0;
+    word-wrap: break-word;
+}
+
+.variable-key, .variable-value {
+    width: 120px;
+    font-size: 1rem;
+    padding: 6px 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    height: 36px;
+}
+
+.key, 
+.variable-value  {
+    margin-right: 10px;
+}
+
+.key, 
+.value, 
+.key p, 
+.value p, 
+.variables-hint, 
+.btn-add-value {
+    display: inline-block;
+}
